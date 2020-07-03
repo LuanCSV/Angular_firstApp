@@ -1,0 +1,29 @@
+
+
+<ng-container *ngFor="let post of posts">
+
+    <div class='div-content mat-elevation-z1 post' >
+      
+        <div class="postHeader">
+            <h2 id="postTitle">
+                {{ post.title}}
+            </h2>
+            
+            <a href="javascript:;"  class="delete" 
+            (click)="deletePost($event)" id="{{ post.id }}">
+                <mat-icon color="accent">
+                    delete
+                </mat-icon>
+            </a>
+        </div>
+        
+        <div id="postContent" class="content"> 
+            {{ post.content }}
+        </div>
+
+        <p id="postAuthor" class="author">Publicado por:  {{ post.author }}</p>
+
+        </div>
+        
+</ng-container>
+

@@ -1,0 +1,42 @@
+.div-content{
+    background-color: whitesmoke;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.postHeader{
+    display: flex;
+    width: 100%;
+}
+.postHeader h2{
+    margin: 0;
+    width: 95%;
+    word-break:break-all;
+}
+.postHeader a{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3f51b5b6;
+    padding: 5px;
+}
+
+.author{
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 0px;
+    color: #7c7c7c;
+    font-style: italic;
+    font-weight: 500;
+    word-break:break-all;
+}

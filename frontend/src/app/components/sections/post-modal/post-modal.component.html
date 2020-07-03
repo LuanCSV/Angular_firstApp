@@ -1,0 +1,22 @@
+
+<h2 mat-dialog-title  class='div-content'>
+    {{ data.title }}
+</h2>
+
+<mat-dialog-content  class='div-content'> 
+   {{ data.content }}
+</mat-dialog-content>
+
+<mat-dialog-content> 
+    <p class="author">Escrito por: {{ data.author }} </p>
+</mat-dialog-content>
+
+<mat-dialog-actions class="buttons">
+    <button mat-raised-button 
+    color="primary" (click)="createPost()"
+    matTooltip="Ao clicar irá recarregar a página!"
+    matTooltipPosition="above">Publicar</button>
+
+    <button mat-raised-button 
+    color="warn" (click)="closeModal()">Cancelar</button>
+</mat-dialog-actions>

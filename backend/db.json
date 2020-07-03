@@ -1,0 +1,22 @@
+{
+  "postagens": [
+    {
+      "id": 1,
+      "title": "1# Teste post",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit repellendus maxime reiciendis, quo modi impedit laudantium quia autem doloribus mollitia iusto hic quam, esse, sit ut molestias. Beatae, quas reprehenderit!",
+      "author": "Luan"
+    },
+    {
+      "title": "1# Teste post1222# Teste post",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit repellendus maxime reiciendis, quo modi impedit laudantium quia autem doloribus mollitia iusto hic quam, esse, sit ut molestias. Beatae, quas reprehenderit!",
+      "author": "aaa",
+      "id": 3
+    },
+    {
+      "title": "Titulo - o Ultimo Teste de agora ",
+      "content": "Ultimo teste do conteúdo de agora",
+      "author": "UltimoTeste - autor",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<mat-card class="mainSection mat-elevation-z3">
+    <mat-card-title>
+        <h2>Sobre mim</h2> 
+    </mat-card-title>
+
+    <mat-card-content class="contato">
+        <img class="avatar" mat-card-avatar 
+        src="./assets/img/eu.jpg" alt="Foto do desenvolvedor">
+
+        <ul>
+            <li>
+                Luan Carlos Silva Vasconcelos
+            </li>
+            <li matTooltip="Clique para copiar o e-mail!"
+                matTooltipPosition="after">
+                <a href="javascript:;" (click)="copy()" 
+                id="emailToClipboard">
+                    luancsvasconcelos@hotmail.com
+                </a>
+            </li>
+        </ul>
+    </mat-card-content>
+
+    <mat-card-content class="mainGreetings">
+        <h3>Olá, seja bem-vindo(a)!</h3>
+        <p>
+            &nbsp;&nbsp;Eu sou o Luan. Irei fazer um breve resumo sobre mim. <span class="commentary">(não que tenha muitas coisas pra resumir, afinal sou jovem !!)</span>.</p>
+        <p> 
+       &nbsp; &nbsp;Sou um grande fã de jogos. "Profissionalmente" produzi alguns jogos, atuando na parte visual <span class="commentary">(Trabalhava com  modelos 3D específicamente)</span>. E agora estou me adaptando ao Javascript.
+        </p>
+        <p>
+            &nbsp;&nbsp;Estarei utilizando esse ambiente para testar minhas aplicações. E dessa vez estou utilizando o framework Angular para desenvolver essa página.
+        </p>
+        
+    </mat-card-content>
+    
+</mat-card>
+

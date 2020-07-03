@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 0px;
+    box-shadow: 
+        0px 3px 3px 2px rgba(0, 0, 0, 0.2), 
+        0px 3px 4px 2px rgba(0, 0, 0, 0.14), 
+        0px 1px 8px 2px rgba(0, 0, 0, 0.12);
+}
+
+.footer span{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 38px;
+}
+
+img{
+    margin-right: 10px;
+    width: 38px;
+}
+

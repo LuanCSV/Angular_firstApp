@@ -1,0 +1,30 @@
+<mat-card class="mainSection mat-elevation-z3">
+    <mat-card-title>
+        <h3 class="doPub">Faça uma publicação!</h3> 
+    </mat-card-title>
+
+    <mat-card-content class="formSection">
+        <form class="formClass">
+            <mat-form-field>
+                <input id="authorId" type="text" 
+                matInput placeholder="Autor" [(ngModel)]="author" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+
+            <mat-form-field>
+                <input id="titleId" type="text"  
+                matInput placeholder="Título da publicação" [(ngModel)]="title" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+
+            <mat-form-field>
+                <textarea id="contentId" type="text"  [(ngModel)]="content" [ngModelOptions]="{standalone: true}"
+                matInput placeholder="Conteudo da Públicação" cols="30" rows="5"></textarea>
+            </mat-form-field>
+            <button mat-raised-button color="primary" (click)="openModal()"> Enviar</button>
+        </form>
+    </mat-card-content>
+
+    <div id="postagensSection">
+        <h3>Publicações</h3>
+        <app-post-read></app-post-read>
+    </div>
+</mat-card>

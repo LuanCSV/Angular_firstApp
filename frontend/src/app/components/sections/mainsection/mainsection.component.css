@@ -1,0 +1,51 @@
+.mainSection{
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    min-width: 350px;
+    max-width: 500px;
+    color: #363636;
+    margin-bottom: 20px;
+}
+h2, h3{
+    font-weight: 500;
+}
+
+.contato {
+    display: flex;
+    margin: 5px;
+}
+.contato ul{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 7px;
+    padding: 10px;
+}
+.contato a {
+    text-decoration: none;
+    color: #3750df;
+    font-weight: 500;
+}
+.tooltip-class{
+    color: red;
+}
+.avatar{
+    width: 72px;
+    height: 72px;;
+}
+
+.mainGreetings{
+    border-top: 1px solid #3f51b5;
+    margin-top: 20px;
+    text-align: justify;
+}
+.mainGreetings h3{
+    margin-top: 20px;
+}
+
+.commentary{
+    font-size: 13px;
+    color: rgb(119, 139, 233);
+}
+

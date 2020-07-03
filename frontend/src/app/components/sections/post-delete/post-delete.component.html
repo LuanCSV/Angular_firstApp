@@ -1,0 +1,24 @@
+
+
+<h2 mat-dialog-title  class='div-content'>
+    {{ data.titlee }}
+</h2>
+
+<mat-dialog-content  class='div-content'> 
+    {{ data.contentt }}
+</mat-dialog-content>
+
+<mat-dialog-content> 
+    <p class="author">Escrito por: {{ data.authorr }} </p>
+</mat-dialog-content>
+
+<mat-dialog-actions class="buttons">
+    <h3 class="confirm"> Tem certeza que desejar deletar essa publicação? </h3>
+     <button mat-raised-button 
+    color="warn" (click)="deletePost()"
+    matTooltip="Ao clicar irá recarregar a página!"
+    matTooltipPosition="above">Deletar</button>
+
+    <button mat-raised-button 
+   (click)="closeModal()">Cancelar</button> 
+</mat-dialog-actions>
